@@ -1,4 +1,7 @@
-﻿using System;
+﻿using RepairEquipment.data;
+using RepairEquipment.programm;
+using RepairEquipment.scripts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +26,15 @@ namespace RepairEquipment
         public MainWindow()
         {
             InitializeComponent();
+            LoadData();
+        }
+
+        private void LoadData()
+        {
+            ControlHelper.main.frmObj = FrmMain;
+            ControlHelper.main.frmObj.Navigate(new PageAuth());
+
+            OdbConnectHelper.databaseconnect = new OdbYP1Entities();
         }
     }
 }

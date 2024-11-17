@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\programm\\app\\apprepairequipment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\apprepairequipment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\scripts\\controlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:scripts\\controlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\programm\\pagesauth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\pagesauth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\data\\odbconnecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:data\\odbconnecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\programm\\app\\apprepairequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\apprepairequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\\u0431\u0443\u044F\u043D\u043E\u0432 \u043D\u0438\u043A\u0438\u0442\u0430 \u0440\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0443\u0447\u0435\u0431\u0430\\\u0437\u0430\u0431\u0433\u043A\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\yp1\\project\\repairequipment\\data\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:data\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\data\\Model1.edmx",
+              "RelativeDocumentMoniker": "data\\Model1.edmx",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\data\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "data\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-17T08:58:54.239Z",
+              "IsPinned": true,
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T09:51:05.394Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppRepairEquipment.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\programm\\App\\AppRepairEquipment.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\AppRepairEquipment.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\programm\\App\\AppRepairEquipment.xaml",
+              "RelativeToolTip": "programm\\App\\AppRepairEquipment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T10:29:29.346Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -35,52 +78,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ControlHelper.cs",
-              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\scripts\\ControlHelper.cs",
-              "RelativeDocumentMoniker": "scripts\\ControlHelper.cs",
-              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\scripts\\ControlHelper.cs",
-              "RelativeToolTip": "scripts\\ControlHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "PagesAuth.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\programm\\PagesAuth.xaml.cs",
+              "RelativeDocumentMoniker": "programm\\PagesAuth.xaml.cs",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\programm\\PagesAuth.xaml.cs",
+              "RelativeToolTip": "programm\\PagesAuth.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwD4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T00:27:20.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OdbConnectHelper.cs",
-              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\data\\OdbConnectHelper.cs",
-              "RelativeDocumentMoniker": "data\\OdbConnectHelper.cs",
-              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\data\\OdbConnectHelper.cs",
-              "RelativeToolTip": "data\\OdbConnectHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T00:25:42.931Z",
+              "WhenOpened": "2024-11-17T10:55:01.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T00:17:11.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "programm\\App\\AppRepairEquipment.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\programm\\App\\AppRepairEquipment.xaml.cs",
+              "RelativeDocumentMoniker": "programm\\App\\AppRepairEquipment.xaml.cs",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\\u0411\u0443\u044F\u043D\u043E\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 \u0420\u043E\u0434\u0438\u043E\u043D\u043E\u0432\u0438\u0447\\\u0423\u0447\u0435\u0431\u0430\\\u0417\u0430\u0431\u0413\u041A\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\11.11.2024 - 20.12.2024\\YP1\\Project\\RepairEquipment\\programm\\App\\AppRepairEquipment.xaml.cs",
+              "RelativeToolTip": "programm\\App\\AppRepairEquipment.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwDEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T00:17:09.482Z",
+              "WhenOpened": "2024-11-17T10:02:00.18Z",
               "EditorCaption": ""
             }
           ]

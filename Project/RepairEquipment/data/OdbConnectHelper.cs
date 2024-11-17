@@ -11,6 +11,6 @@ namespace RepairEquipment.data
     /// </summary>
     class OdbConnectHelper
     {
-        public static // databaseconnect;
+        public static OdbYP1Entities databaseconnect;
     }
 }

@@ -4,6 +4,45 @@
              xmlns:local="clr-namespace:RepairEquipment"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="BorderMain" TargetType="Border">
+            <Setter Property="Height" Value="35"></Setter>
+            <Setter Property="Width" Value="204"></Setter>
+            <Setter Property="Background" Value="LightYellow"></Setter>
+            <Setter Property="BorderThickness" Value="1 1 1 1"></Setter>
+        </Style>
+
+        <Style x:Key="BtnMain" TargetType="Button">
+            <Setter Property="Height" Value="35"></Setter>
+            <Setter Property="Width" Value="195"></Setter>
+            <Setter Property="Margin" Value="0 5 0 5"></Setter>
+            <Setter Property="Background" Value="LightYellow"></Setter>
+            <Setter Property="BorderThickness" Value="1 1 1 1"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+        </Style>
+
+        <Style x:Key="BtnMain_StackPanel" TargetType="StackPanel">
+            <Setter Property="Height" Value="35"></Setter>
+            <Setter Property="Width" Value="195"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Orientation" Value="Horizontal"></Setter>
+        </Style>
+
+        <Style x:Key="BtnMain_StackPanel_Image" TargetType="Image">
+            <Setter Property="Height" Value="25"></Setter>
+            <Setter Property="Width" Value="25"></Setter>
+            <Setter Property="Margin" Value="5 0 0 0"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style>
+
+        <Style x:Key="BtnMain_StackPanel_Image_TextBlock" TargetType="TextBlock">
+            <Setter Property="Margin" Value="5 0 0 0"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="18px"></Setter>
+            <Setter Property="FontFamily" Value="Arial"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

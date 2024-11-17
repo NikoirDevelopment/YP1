@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons8-laptop-100.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/model1.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/model1.tt")]
 
 

@@ -1,0 +1,189 @@
+﻿<Page x:Class="RepairEquipment.programm.PageAuth"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:RepairEquipment.programm"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="PagesAuthorization">
+
+    <Border
+    Background="DimGray">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="154*"/>
+                <RowDefinition Height="130*"/>
+                <RowDefinition Height="61*"/>
+                <RowDefinition Height="64*"/>
+                <RowDefinition Height="25*"/>
+            </Grid.RowDefinitions>
+
+            <Border
+                Grid.Row="0"
+                Background="Gray">
+                <StackPanel
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Vertical">
+                    <Border
+                        Height="100"
+                        Width="100"
+                        Margin="0 10 0 0"
+                        Background="LightYellow"
+                        CornerRadius="100">
+                        <Image
+                            Source="/res/image/Authorization_static.png"
+                            Height="60">
+                        </Image>
+                    </Border>
+
+                    <TextBlock
+                        Margin="0 8 0 5"
+                        Text="Авторизация"
+                        Foreground="White"
+                        FontSize="20px"
+                        FontFamily="Arial">
+                    </TextBlock>
+                </StackPanel>
+            </Border>
+
+            <StackPanel
+                Grid.Row="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Vertical">
+                <StackPanel
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
+                    <Border
+                        Height="34"
+                        Width="45"
+                        Background="Gray"
+                        CornerRadius="4 0 0 4">
+                        <Image
+                            Source="/res/image/User.png"
+                            Height="30">
+                        </Image>
+                    </Border>
+
+                    <Border
+                        Height="34"
+                        Width="230"
+                        Background="LightYellow"
+                        CornerRadius="0 4 4 0">
+                        <TextBox
+                            x:Name="TxbUser"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            FontFamily="Arial"
+                            FontSize="14px"
+                            FontWeight="Bold">
+                        </TextBox>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal"
+                    Margin="0 18 0 0">
+                    <Border
+                        Height="34"
+                        Width="45"
+                        Background="Gray"
+                        CornerRadius="4 0 0 4">
+                        <Image
+                            Source="/res/image/Password.png"
+                            Height="28">
+                        </Image>
+                    </Border>
+
+                    <Border
+                        Height="34"
+                        Width="230"
+                        Background="LightYellow"
+                        CornerRadius="0 4 4 0">
+                        <PasswordBox
+                            x:Name="TxbPassword"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            FontFamily="Arial"
+                            FontSize="14px"
+                            FontWeight="Bold">
+                        </PasswordBox>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+
+            <Border
+                Grid.Row="2"
+                Background="Gray">
+                <StackPanel
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal" Cursor="">
+                    <CheckBox
+                        x:Name="ChbSave"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Content="запомнить"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        FontSize="12px"
+                        Foreground="White"
+                        FontFamily="Arial"
+                        FontWeight="Normal">
+                    </CheckBox>
+
+                    <Button
+                        x:Name="BtnOk"
+                        Height="34"
+                        Width="75"
+                        Margin="40 0 0 0"
+                        Background="LightYellow"
+                        Cursor="Hand" Click="BtnOk_Click">
+                        <StackPanel
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Orientation="Horizontal">
+                            <Image
+                                Source="/res/image/Ok.png"
+                                Height="12"
+                                Margin="0 0 2 0">
+                            </Image>
+
+                            <TextBlock
+                                Text="Войти"
+                                Foreground="Black"
+                                FontSize="12px"
+                                FontFamily="Arial">
+                            </TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <Button
+                x:Name="BtnReg"
+                Height="34"
+                Width="95"
+                Grid.Row="3"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="Gray"
+                Content="Регистрация"
+                Foreground="White"
+                FontSize="12px"
+                FontFamily="Arial"
+                Click="BtnReg_Click"
+                Cursor="Hand">
+            </Button>
+        </Grid>
+    </Border>
+</Page>

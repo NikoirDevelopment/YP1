@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RepairEquipment"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Вход в систему"
+        Height="480" Width="420"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="405*"/>
+            <RowDefinition Height="29*"/>
+        </Grid.RowDefinitions>
+
+        <Border
+            Grid.Row="1"
+            Background="Gray">
+            <StackPanel
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Orientation="Vertical">
+                <Label
+                    HorizontalAlignment="Right"
+                    Margin="0 0 0 -10"
+                    Content="v0.0.0"
+                    Foreground="White"
+                    FontSize="10px"
+                    FontFamily="Arial"
+                    FontWeight="Bold">
+                </Label>
+
+                <Label
+                    Content="NikoirDevelopment"
+                    Foreground="White"
+                    FontSize="10px"
+                    FontFamily="Arial"
+                    FontWeight="Bold">
+                </Label>
+            </StackPanel>
+        </Border>
+
+        <Frame
+            x:Name="FrmMain"
+            Grid.Row="0"
+            NavigationUIVisibility="Hidden">
+        </Frame>
     </Grid>
 </Window>
