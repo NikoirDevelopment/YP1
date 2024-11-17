@@ -70,6 +70,24 @@
                     </Button>
 
                     <Button
+                        x:Name="Btn_CreateMaterial"
+                        Style="{DynamicResource BtnMain}"
+                        Click="Btn_CreateMaterial_Click">
+                        <StackPanel
+                            Style="{StaticResource BtnMain_StackPanel}">
+                            <Image
+                                Style="{StaticResource BtnMain_StackPanel_Image}"
+                                Source="/res/image/Authorization_static.png">
+                            </Image>
+
+                            <TextBlock
+                                Style="{StaticResource BtnMain_StackPanel_Image_TextBlock}"
+                                Text="Добавить элемент">
+                            </TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                    <Button
                         x:Name="Btn_CreateOrder"
                         Style="{DynamicResource BtnMain}"
                         Click="Btn_CreateOrder_Click">

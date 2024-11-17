@@ -1,6 +1,8 @@
 ﻿using RepairEquipment.data;
 using RepairEquipment.scripts;
 using RepairEquipment.programm.App.Pages;
+using RepairEquipment.programm.App.Pages.CreateMaterial;
+using RepairEquipment.programm.App.Pages.CreateOrder;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +18,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Data.Entity.Core.Common.CommandTrees;
+using RepairEquipment.programm.App.Pages.CheckOrder;
 
 namespace RepairEquipment.programm.App
 {
@@ -54,6 +57,7 @@ namespace RepairEquipment.programm.App
             {
                 case 1:
                     Btn_Users.Visibility = Visibility.Visible;
+                    Btn_CreateMaterial.Visibility = Visibility.Visible;
                     Btn_Statistics.Visibility = Visibility.Visible;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Visible;
@@ -63,10 +67,11 @@ namespace RepairEquipment.programm.App
                     break;
 
                 case 2:
-                    Btn_Users.Visibility = Visibility.Visible;
-                    Btn_Statistics.Visibility = Visibility.Visible;
+                    Btn_Users.Visibility = Visibility.Collapsed;
+                    Btn_CreateMaterial.Visibility = Visibility.Collapsed;
+                    Btn_Statistics.Visibility = Visibility.Collapsed;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
-                    Btn_CreateOrder.Visibility = Visibility.Visible;
+                    Btn_CreateOrder.Visibility = Visibility.Collapsed;
                     Btn_Message.Visibility = Visibility.Visible;
                     LblGrid0.Visibility = Visibility.Hidden;
                     LblGrid1.Visibility = Visibility.Hidden;
@@ -74,6 +79,7 @@ namespace RepairEquipment.programm.App
 
                 case 3:
                     Btn_Users.Visibility = Visibility.Visible;
+                    Btn_CreateMaterial.Visibility = Visibility.Collapsed;
                     Btn_Statistics.Visibility = Visibility.Visible;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Visible;
@@ -84,6 +90,7 @@ namespace RepairEquipment.programm.App
 
                 case 4:
                     Btn_Users.Visibility = Visibility.Collapsed;
+                    Btn_CreateMaterial.Visibility = Visibility.Collapsed;
                     Btn_Statistics.Visibility = Visibility.Collapsed;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Visible;
@@ -100,16 +107,22 @@ namespace RepairEquipment.programm.App
             ControlHelper.programm.frmObj.Navigate(new PagesUsers());
         }
 
+        private void Btn_CreateMaterial_Click(object sender, RoutedEventArgs e)
+        {
+            this.Title = "БытСервис | Добавление элементов в систему";
+            ControlHelper.programm.frmObj.Navigate(new PagesCreateMaterial());
+        }
+
         private void Btn_CreateOrder_Click(object sender, RoutedEventArgs e)
         {
             this.Title = "БытСервис | Создание заявки";
-            //ControlHelper.programm.frmObj.Navigate(new PagesCreateOrder());
+            ControlHelper.programm.frmObj.Navigate(new PagesCreateOrder());
         }
 
         private void Btn_CheckOrder_Click(object sender, RoutedEventArgs e)
         {
             this.Title = "БытСервис | Проверка заказа";
-            //ControlHelper.programm.frmObj.Navigate(new PagesCheckOrder());
+            ControlHelper.programm.frmObj.Navigate(new PagesCheckOrder());
         }
 
         private void Btn_Statistics_Click(object sender, RoutedEventArgs e)

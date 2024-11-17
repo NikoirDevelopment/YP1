@@ -109,6 +109,15 @@
     <Compile Include="programm\App\AppRepairEquipment.xaml.cs">
       <DependentUpon>AppRepairEquipment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="programm\App\Pages\CheckOrder\PagesCheckOrder.xaml.cs">
+      <DependentUpon>PagesCheckOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\CreateMaterial\PagesCreateMaterial.xaml.cs">
+      <DependentUpon>PagesCreateMaterial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\CreateOrder\PagesCreateOrder.xaml.cs">
+      <DependentUpon>PagesCreateOrder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="programm\App\Pages\Users\PagesUsers.xaml.cs">
       <DependentUpon>PagesUsers.xaml</DependentUpon>
     </Compile>
@@ -129,6 +138,7 @@
     </Compile>
     <Compile Include="scripts\BufferUser.cs" />
     <Compile Include="scripts\ControlHelper.cs" />
+    <Compile Include="scripts\FirmModelItem.cs" />
     <Compile Include="scripts\SystemScript.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -144,6 +154,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="programm\App\AppRepairEquipment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CheckOrder\PagesCheckOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CreateMaterial\PagesCreateMaterial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CreateOrder\PagesCreateOrder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
