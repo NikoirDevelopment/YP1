@@ -1,0 +1,69 @@
+CREATE DATABASE [OdbYP1];
+
+USE [OdbYP1];
+CREATE TABLE [Role] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Name] VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE [User] (
+	[id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Surname] VARCHAR(50) NOT NULL
+	, [Name] VARCHAR(50) NOT NULL
+	, [Patronymic] VARCHAR(50) NOT NULL
+	, [Phone] FLOAT NOT NULL
+	, [Login] VARCHAR(20) NOT NULL
+	, [Password] VARCHAR(30) NOT NULL
+	, [IdRole] INT NOT NULL
+		FOREIGN KEY REFERENCES [Role](Id)
+);
+
+CREATE TABLE [Color] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Name] VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE [FirmModel] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Name] VARCHAR(50) NOT NULL
+	, [Model] VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE [HomeTech] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Name] VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE [Status] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Name] VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE [Request] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [StartDate] DATE
+	, [IdTech] INT
+		FOREIGN KEY REFERENCES [HomeTech](Id)
+	, [IdFirmModel] INT
+		FOREIGN KEY REFERENCES [FirmModel](Id)
+	, [IdColor] [int]
+		FOREIGN KEY REFERENCES [Color](Id)
+	, [ProblemDescryption] VARCHAR(MAX)
+	, [IdStatus] INT
+		FOREIGN KEY REFERENCES [Status](Id)
+	, [ComplectionDate] DATE
+	, [RepairParts] VARCHAR(MAX)
+	, [MasterId] INT
+		FOREIGN KEY REFERENCES [User](Id)
+	, [ClientId] INT
+		FOREIGN KEY REFERENCES [User](Id)
+);
+
+CREATE TABLE [Comment] (
+	[Id] INT IDENTITY(1,1) PRIMARY KEY
+	, [Message] VARCHAR(MAX)
+	, [MasterId] INT
+		FOREIGN KEY REFERENCES [User](Id)
+	, [RequestId] INT
+		FOREIGN KEY REFERENCES [Request](Id)
+);

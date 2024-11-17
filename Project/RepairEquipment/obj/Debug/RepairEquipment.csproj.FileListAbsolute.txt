@@ -1,0 +1,15 @@
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\bin\Debug\RepairEquipment.exe.config
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\bin\Debug\RepairEquipment.exe
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\bin\Debug\RepairEquipment.pdb
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.csproj.AssemblyReference.cache
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\MainWindow.g.cs
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\App.g.cs
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment_MarkupCompile.cache
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment_MarkupCompile.lref
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\MainWindow.baml
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.g.resources
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.Properties.Resources.resources
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.csproj.GenerateResource.cache
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.csproj.CoreCompileInputs.cache
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.exe
+C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\obj\Debug\RepairEquipment.pdb
