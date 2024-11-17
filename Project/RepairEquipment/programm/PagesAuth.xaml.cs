@@ -29,6 +29,9 @@ namespace RepairEquipment.programm
             CheckSaveLogin();
         }
 
+        /// <summary>
+        /// Проверка на заполненого
+        /// </summary>
         private void CheckSaveLogin()
         {
             if (Properties.Settings.Default.SaveLogin != String.Empty)
@@ -43,6 +46,9 @@ namespace RepairEquipment.programm
             CheckData();
         }
 
+        /// <summary>
+        /// Проверка пользователя
+        /// </summary>
         private void CheckData()
         {
             string login = TxbUser.Text;
@@ -101,6 +107,9 @@ namespace RepairEquipment.programm
             }
         }
 
+        /// <summary>
+        /// Запомнить логин пользователя
+        /// </summary>
         private void RememberMe()
         {
             if (ChbSave.IsChecked == true)

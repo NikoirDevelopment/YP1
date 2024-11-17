@@ -109,6 +109,18 @@
     <Compile Include="programm\App\AppRepairEquipment.xaml.cs">
       <DependentUpon>AppRepairEquipment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="programm\App\Pages\Users\PagesUsers.xaml.cs">
+      <DependentUpon>PagesUsers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\Users\WindowsDeleteUser.xaml.cs">
+      <DependentUpon>WindowsDeleteUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\Users\WindowsDetailUser.xaml.cs">
+      <DependentUpon>WindowsDetailUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\SystemPagesAndWindows\WindowsCheckPasswordRoot.xaml.cs">
+      <DependentUpon>WindowsCheckPasswordRoot.xaml</DependentUpon>
+    </Compile>
     <Compile Include="programm\PagesAuth.xaml.cs">
       <DependentUpon>PagesAuth.xaml</DependentUpon>
     </Compile>
@@ -132,6 +144,22 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="programm\App\AppRepairEquipment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\Users\PagesUsers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="programm\App\Pages\Users\WindowsDeleteUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\Users\WindowsDetailUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\SystemPagesAndWindows\WindowsCheckPasswordRoot.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

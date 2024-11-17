@@ -1,0 +1,119 @@
+﻿<Page x:Class="RepairEquipment.programm.App.Pages.PagesUsers"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:RepairEquipment.programm.App.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="626"
+      Title="PagesUser"
+      Background="Gray">
+    <Grid>
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Orientation="Vertical">
+            <DataGrid
+                x:Name="DtgTable"
+                Height="370"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                AutoGenerateColumns="False"
+                CanUserAddRows="False"
+                CanUserDeleteRows="False"
+                CanUserReorderColumns="False"
+                CanUserResizeRows="False"
+                CanUserResizeColumns="False"
+                IsReadOnly="True"
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Visible">
+                <DataGrid.Columns>
+                    <DataGridTextColumn
+                        Header="ID"
+                        Width="56"
+                        Binding="{Binding id}">
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn
+                        Header="Имя"
+                        Width="117"
+                        Binding="{Binding Name}">
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn
+                        Header="Фамилия"
+                        Width="117"
+                        Binding="{Binding Surname}">
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn
+                        Header="Отчество"
+                        Width="117"
+                        Binding="{Binding Patronymic}">
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn
+                        Header="Отношение"
+                        Width="76"
+                        Binding="{Binding Role.Name}">
+                    </DataGridTextColumn>
+
+                    <DataGridTemplateColumn Header="Подробнее">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button
+                                    x:Name="BtnDetailUser"
+                                    Content="Подробнее"
+                                    Height="20"
+                                    Click="BtnDetailUser_Click"
+                                    Cursor="Hand">
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Удалить">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button
+                                    x:Name="BtnDeleteUser"
+                                    Content="Удалить"
+                                    Height="20"
+                                    Click="BtnDeleteUser_Click"
+                                    Cursor="Hand">
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button
+                x:Name="BtnUpdate"
+                Height="34"
+                Width="135"
+                Margin="0 5 0 0"
+                Background="LightYellow"
+                Cursor="Hand"
+                Click="BtnUpdate_Click">
+                <StackPanel
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
+                    <Image
+                        Source="/res/image/Ok.png"
+                        Height="12"
+                        Margin="0 0 2 0">
+                    </Image>
+
+                    <TextBlock
+                        Text="Обновить"
+                        Foreground="Black"
+                        FontSize="12px"
+                        FontFamily="Arial">
+                    </TextBlock>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>

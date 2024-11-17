@@ -1,5 +1,6 @@
 ﻿using RepairEquipment.data;
 using RepairEquipment.scripts;
+using RepairEquipment.programm.App.Pages;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data.Entity.Core.Common.CommandTrees;
 
 namespace RepairEquipment.programm.App
 {
@@ -25,6 +27,19 @@ namespace RepairEquipment.programm.App
         public AppRepairEquipment()
         {
             InitializeComponent();
+            LoadSystem();
+        }
+
+        private void LoadSystem()
+        {
+            Btn_Users.Visibility = Visibility.Collapsed;
+            Btn_Statistics.Visibility = Visibility.Collapsed;
+            Btn_CheckOrder.Visibility = Visibility.Collapsed;
+            Btn_CreateOrder.Visibility = Visibility.Collapsed;
+            Btn_Message.Visibility = Visibility.Collapsed;
+            LblGrid0.Visibility = Visibility.Visible;
+            LblGrid1.Visibility = Visibility.Visible;
+
             LoadData();
         }
 
@@ -35,67 +50,54 @@ namespace RepairEquipment.programm.App
 
             SystemScript.CheckBtn = 0;
 
-            if (BufferUser.Role != null)
+            switch (BufferUser.Role)
             {
-                switch (BufferUser.Role)
-                {
-                    case 1:
-                        Btn_Users.Visibility = Visibility.Visible;
-                        Btn_Statistics.Visibility = Visibility.Visible;
-                        Btn_CheckOrder.Visibility = Visibility.Visible;
-                        Btn_CreateOrder.Visibility = Visibility.Visible;
-                        Btn_Message.Visibility = Visibility.Visible;
-                        LblGrid0.Visibility = Visibility.Hidden;
-                        LblGrid1.Visibility = Visibility.Hidden;
-                        break;
+                case 1:
+                    Btn_Users.Visibility = Visibility.Visible;
+                    Btn_Statistics.Visibility = Visibility.Visible;
+                    Btn_CheckOrder.Visibility = Visibility.Visible;
+                    Btn_CreateOrder.Visibility = Visibility.Visible;
+                    Btn_Message.Visibility = Visibility.Visible;
+                    LblGrid0.Visibility = Visibility.Hidden;
+                    LblGrid1.Visibility = Visibility.Hidden;
+                    break;
 
-                    case 2:
-                        Btn_Users.Visibility = Visibility.Visible;
-                        Btn_Statistics.Visibility = Visibility.Visible;
-                        Btn_CheckOrder.Visibility = Visibility.Visible;
-                        Btn_CreateOrder.Visibility = Visibility.Visible;
-                        Btn_Message.Visibility = Visibility.Visible;
-                        LblGrid0.Visibility = Visibility.Hidden;
-                        LblGrid1.Visibility = Visibility.Hidden;
-                        break;
+                case 2:
+                    Btn_Users.Visibility = Visibility.Visible;
+                    Btn_Statistics.Visibility = Visibility.Visible;
+                    Btn_CheckOrder.Visibility = Visibility.Visible;
+                    Btn_CreateOrder.Visibility = Visibility.Visible;
+                    Btn_Message.Visibility = Visibility.Visible;
+                    LblGrid0.Visibility = Visibility.Hidden;
+                    LblGrid1.Visibility = Visibility.Hidden;
+                    break;
 
-                    case 3:
-                        Btn_Users.Visibility = Visibility.Visible;
-                        Btn_Statistics.Visibility = Visibility.Visible;
-                        Btn_CheckOrder.Visibility = Visibility.Visible;
-                        Btn_CreateOrder.Visibility = Visibility.Visible;
-                        Btn_Message.Visibility = Visibility.Visible;
-                        LblGrid0.Visibility = Visibility.Hidden;
-                        LblGrid1.Visibility = Visibility.Hidden;
-                        break;
+                case 3:
+                    Btn_Users.Visibility = Visibility.Visible;
+                    Btn_Statistics.Visibility = Visibility.Visible;
+                    Btn_CheckOrder.Visibility = Visibility.Visible;
+                    Btn_CreateOrder.Visibility = Visibility.Visible;
+                    Btn_Message.Visibility = Visibility.Visible;
+                    LblGrid0.Visibility = Visibility.Hidden;
+                    LblGrid1.Visibility = Visibility.Hidden;
+                    break;
 
-                    case 4:
-                        Btn_Users.Visibility = Visibility.Collapsed;
-                        Btn_Statistics.Visibility = Visibility.Collapsed;
-                        Btn_CheckOrder.Visibility = Visibility.Visible;
-                        Btn_CreateOrder.Visibility = Visibility.Visible;
-                        Btn_Message.Visibility = Visibility.Visible;
-                        LblGrid0.Visibility = Visibility.Hidden;
-                        LblGrid1.Visibility = Visibility.Hidden;
-                        break;
-                }
-            }
-            else
-            {
-                Btn_Users.Visibility = Visibility.Collapsed;
-                Btn_Statistics.Visibility = Visibility.Collapsed;
-                Btn_CheckOrder.Visibility = Visibility.Collapsed;
-                Btn_CreateOrder.Visibility = Visibility.Collapsed;
-                Btn_Message.Visibility = Visibility.Collapsed;
-                LblGrid0.Visibility = Visibility.Visible;
-                LblGrid1.Visibility = Visibility.Visible;
+                case 4:
+                    Btn_Users.Visibility = Visibility.Collapsed;
+                    Btn_Statistics.Visibility = Visibility.Collapsed;
+                    Btn_CheckOrder.Visibility = Visibility.Visible;
+                    Btn_CreateOrder.Visibility = Visibility.Visible;
+                    Btn_Message.Visibility = Visibility.Visible;
+                    LblGrid0.Visibility = Visibility.Hidden;
+                    LblGrid1.Visibility = Visibility.Hidden;
+                    break;
             }
         }
 
         private void Btn_Users_Click(object sender, RoutedEventArgs e)
         {
             this.Title = "БытСервис | Пользователи";
-            //ControlHelper.programm.frmObj.Navigate(new PagesUsers());
+            ControlHelper.programm.frmObj.Navigate(new PagesUsers());
         }
 
         private void Btn_CreateOrder_Click(object sender, RoutedEventArgs e)
@@ -142,6 +144,10 @@ namespace RepairEquipment.programm.App
             }
         }
 
+        /// <summary>
+        /// Логика закрытия окна на крестик
+        /// </summary>
+        /// <param name="e"></param>
         protected override void OnClosing(CancelEventArgs e)
         {
             if (SystemScript.CheckBtn == 0)
@@ -165,7 +171,6 @@ namespace RepairEquipment.programm.App
                     e.Cancel = true;
                 }
             }
-
         }
     }
 }

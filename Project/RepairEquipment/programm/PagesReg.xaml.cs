@@ -25,6 +25,18 @@ namespace RepairEquipment.programm
         public PagesReg()
         {
             InitializeComponent();
+            LoadSystem();
+        }
+
+        private void LoadSystem()
+        {
+            TxbUser.IsEnabled = true;
+            TxbName.IsEnabled = false;
+            TxbSurname.IsEnabled = false;
+            TxbMiddlename.IsEnabled = false;
+            TxbPhone.IsEnabled = false;
+            TxbPassword1.IsEnabled = false;
+            TxbPassword2.IsEnabled = false;
         }
 
         private void TxbUser_TextChanged(object sender, TextChangedEventArgs e)
@@ -102,7 +114,7 @@ namespace RepairEquipment.programm
 
         private void BtnAuth_Click(object sender, RoutedEventArgs e)
         {
-            ControlHelper.programm.frmObj.GoBack();
+            ControlHelper.main.frmObj.GoBack();
         }
 
         /// <summary>
@@ -120,8 +132,8 @@ namespace RepairEquipment.programm
                         string login = TxbUser.Text;
                         string password = TxbPassword2.Password;
 
-                        var checkUser = OdbConnectHelper.databaseconnect.User.Where(
-                            x => x.Login == login);
+                        var checkUser = OdbConnectHelper.databaseconnect.User.FirstOrDefault(
+                            x => String.Compare(x.Login, login, StringComparison.InvariantCulture) == 0);
 
                         if (checkUser == null)
                         {
@@ -147,7 +159,7 @@ namespace RepairEquipment.programm
                         }
                         else
                         {
-                            MessageBox.Show("Логин уже занят",
+                            MessageBox.Show("Логин уже занят!",
                                 "Системное уведомление | Регистрация",
                                 MessageBoxButton.OK,
                                 MessageBoxImage.Warning);
@@ -163,7 +175,7 @@ namespace RepairEquipment.programm
                 }
                 else
                 {
-                    MessageBox.Show("Пароли не совпадают",
+                    MessageBox.Show("Пароли не совпадают!",
                         "Системное уведомление | Регистрация",
                         MessageBoxButton.OK,
                         MessageBoxImage.Warning);

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\hlebu\YandexDisk\Буянов Никита Родионович\Учеба\ЗабГК\Учебная практика\11.11.2024 - 20.12.2024\YP1\Project\RepairEquipment\App.xaml
-4-155930593
+8959261598
 2-563249835
-23-978271378
+271469775359
 182069513833
-MainWindow.xaml;programm\App\AppRepairEquipment.xaml;programm\PagesAuth.xaml;programm\PagesReg.xaml;
+MainWindow.xaml;programm\App\AppRepairEquipment.xaml;programm\App\Pages\Users\PagesUsers.xaml;programm\App\Pages\Users\WindowsDeleteUser.xaml;programm\App\Pages\Users\WindowsDetailUser.xaml;programm\App\SystemPagesAndWindows\WindowsCheckPasswordRoot.xaml;programm\PagesAuth.xaml;programm\PagesReg.xaml;
 
 False
 
