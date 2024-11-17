@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "OdbYP1", "..\..\..\..\..\..\..\..\..\Desktop\OdbYP1\OdbYP1.ssmssqlproj", "{5CF47273-4B7B-4645-BE07-08A5A4A4736F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7316B0B6-60CE-438E-9518-2F0FCF56487A}.Default|Default.ActiveCfg = Default
+		{5CF47273-4B7B-4645-BE07-08A5A4A4736F}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3ACBDB1-6CF3-4767-B9A9-8FFC82B45A3E}
+	EndGlobalSection
+EndGlobal
