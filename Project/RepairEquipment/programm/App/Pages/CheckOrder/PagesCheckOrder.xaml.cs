@@ -98,12 +98,14 @@ namespace RepairEquipment.programm.App.Pages.CheckOrder
 
         private void BtnEditOrder_Click(object sender, RoutedEventArgs e)
         {
-
+            WindowEditOrder windowEditOrder = new WindowEditOrder((sender as Button).DataContext as Request);
+            windowEditOrder.Show();
         }
 
         private void BtnDeleteOrder_Click(object sender, RoutedEventArgs e)
         {
-
+            WindowDeleteOrder windowDeleteOrder = new WindowDeleteOrder((sender as Button).DataContext as Request);
+            windowDeleteOrder.Show();
         }
 
         private void BtnUpdate_Click(object sender, RoutedEventArgs e)

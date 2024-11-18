@@ -78,12 +78,12 @@ namespace RepairEquipment.programm.App
                     break;
 
                 case 3:
-                    Btn_Users.Visibility = Visibility.Visible;
+                    Btn_Users.Visibility = Visibility.Collapsed;
                     Btn_CreateMaterial.Visibility = Visibility.Collapsed;
-                    Btn_Statistics.Visibility = Visibility.Visible;
+                    Btn_Statistics.Visibility = Visibility.Collapsed;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
-                    Btn_CreateOrder.Visibility = Visibility.Visible;
-                    Btn_Message.Visibility = Visibility.Visible;
+                    Btn_CreateOrder.Visibility = Visibility.Collapsed;
+                    Btn_Message.Visibility = Visibility.Collapsed;
                     LblGrid0.Visibility = Visibility.Hidden;
                     LblGrid1.Visibility = Visibility.Hidden;
                     break;

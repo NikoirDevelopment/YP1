@@ -112,6 +112,12 @@
     <Compile Include="programm\App\Pages\CheckOrder\PagesCheckOrder.xaml.cs">
       <DependentUpon>PagesCheckOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="programm\App\Pages\CheckOrder\WindowDeleteOrder.xaml.cs">
+      <DependentUpon>WindowDeleteOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\CheckOrder\WindowEditOrder.xaml.cs">
+      <DependentUpon>WindowEditOrder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="programm\App\Pages\CreateMaterial\PagesCreateMaterial.xaml.cs">
       <DependentUpon>PagesCreateMaterial.xaml</DependentUpon>
     </Compile>
@@ -158,6 +164,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="programm\App\Pages\CheckOrder\PagesCheckOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CheckOrder\WindowDeleteOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CheckOrder\WindowEditOrder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -234,7 +248,9 @@
   <ItemGroup>
     <Resource Include="res\icons.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="programm\App\Pages\Statistics\" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="res\image\Add.png" />
     <Resource Include="res\image\Authorization_dynamic.gif" />
