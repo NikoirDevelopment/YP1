@@ -239,7 +239,6 @@
                         </TextBlock>
                     </StackPanel>
                 </Button>
-
             </StackPanel>
         </Grid>
     </Grid>

@@ -68,7 +68,7 @@ namespace RepairEquipment.programm.App.Pages.CheckOrder
             if (BufferUser.Role == 4)
             {
                 var checkHomeTech = OdbConnectHelper.databaseconnect.Request.Where(
-                    x => x.IdTech == ((int)CmdHomeTech.SelectedValue) && (x.ClientId == BufferUser.Id));
+                    x => x.IdTech == ((int)CmdHomeTech.SelectedValue));
 
                 DtgTable.ItemsSource = checkHomeTech.ToList();
             }

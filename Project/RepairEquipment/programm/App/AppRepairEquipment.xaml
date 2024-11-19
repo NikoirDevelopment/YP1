@@ -148,27 +148,6 @@
                         </StackPanel>
                     </Button>
 
-                    <Button
-                        x:Name="Btn_Message"
-                        Style="{DynamicResource BtnMain}"
-                        Click="Btn_Message_Click" Cursor="Hand">
-                        <StackPanel
-                            Style="{StaticResource BtnMain_StackPanel}">
-                            <Image
-                                Style="{StaticResource BtnMain_StackPanel_Image}"
-                                Source="/res/image/Message.png"
-                                Height="28"
-                                Width="28">
-                            </Image>
-
-                            <TextBlock
-                                Style="{StaticResource BtnMain_StackPanel_Image_TextBlock}"
-                                Margin="3 0 0 0"
-                                Text="Уведомление">
-                            </TextBlock>
-                        </StackPanel>
-                    </Button>
-
                     <Label
                         x:Name="LblGrid0"
                         Content="Авторизируйтесь в систему!"

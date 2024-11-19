@@ -3,6 +3,8 @@ using RepairEquipment.scripts;
 using RepairEquipment.programm.App.Pages;
 using RepairEquipment.programm.App.Pages.CreateMaterial;
 using RepairEquipment.programm.App.Pages.CreateOrder;
+using RepairEquipment.programm.App.Pages.CheckOrder;
+using RepairEquipment.programm.App.Pages.Statistics;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,7 +20,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Data.Entity.Core.Common.CommandTrees;
-using RepairEquipment.programm.App.Pages.CheckOrder;
 
 namespace RepairEquipment.programm.App
 {
@@ -39,7 +40,6 @@ namespace RepairEquipment.programm.App
             Btn_Statistics.Visibility = Visibility.Collapsed;
             Btn_CheckOrder.Visibility = Visibility.Collapsed;
             Btn_CreateOrder.Visibility = Visibility.Collapsed;
-            Btn_Message.Visibility = Visibility.Collapsed;
             LblGrid0.Visibility = Visibility.Visible;
             LblGrid1.Visibility = Visibility.Visible;
 
@@ -61,10 +61,9 @@ namespace RepairEquipment.programm.App
                     Btn_Statistics.Visibility = Visibility.Visible;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Visible;
-                    Btn_Message.Visibility = Visibility.Visible;
                     LblGrid0.Visibility = Visibility.Hidden;
                     LblGrid1.Visibility = Visibility.Hidden;
-                    break;
+                break;
 
                 case 2:
                     Btn_Users.Visibility = Visibility.Collapsed;
@@ -72,10 +71,9 @@ namespace RepairEquipment.programm.App
                     Btn_Statistics.Visibility = Visibility.Collapsed;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Collapsed;
-                    Btn_Message.Visibility = Visibility.Visible;
                     LblGrid0.Visibility = Visibility.Hidden;
                     LblGrid1.Visibility = Visibility.Hidden;
-                    break;
+                break;
 
                 case 3:
                     Btn_Users.Visibility = Visibility.Collapsed;
@@ -83,10 +81,9 @@ namespace RepairEquipment.programm.App
                     Btn_Statistics.Visibility = Visibility.Collapsed;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Collapsed;
-                    Btn_Message.Visibility = Visibility.Collapsed;
                     LblGrid0.Visibility = Visibility.Hidden;
                     LblGrid1.Visibility = Visibility.Hidden;
-                    break;
+                break;
 
                 case 4:
                     Btn_Users.Visibility = Visibility.Collapsed;
@@ -94,10 +91,20 @@ namespace RepairEquipment.programm.App
                     Btn_Statistics.Visibility = Visibility.Collapsed;
                     Btn_CheckOrder.Visibility = Visibility.Visible;
                     Btn_CreateOrder.Visibility = Visibility.Visible;
-                    Btn_Message.Visibility = Visibility.Visible;
                     LblGrid0.Visibility = Visibility.Hidden;
                     LblGrid1.Visibility = Visibility.Hidden;
-                    break;
+
+                    MessageBoxResult result = MessageBox.Show("Дорогой пользователь! Обязательно проверьте статус вашей заявки в разделе навигации: " +
+                        "Просмотр заявок. Перейти в раздел просмотр заявок?",
+                            "Системное уведомление | Главный экран",
+                            MessageBoxButton.YesNo,
+                            MessageBoxImage.Information);
+
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        ControlHelper.programm.frmObj.Navigate(new PagesCheckOrder());
+                    }
+                break;
             }
         }
 
@@ -128,13 +135,7 @@ namespace RepairEquipment.programm.App
         private void Btn_Statistics_Click(object sender, RoutedEventArgs e)
         {
             this.Title = "БытСервис | Статистика деятельности";
-            //ControlHelper.programm.frmObj.Navigate(new PagesStatistick());
-        }
-
-        private void Btn_Message_Click(object sender, RoutedEventArgs e)
-        {
-            this.Title = "БытСервис | Уведомление";
-            //ControlHelper.programm.frmObj.Navigate(new PagesMessage());
+            ControlHelper.programm.frmObj.Navigate(new PagesStatistics());
         }
 
         private void Btn_Exit_Click(object sender, RoutedEventArgs e)

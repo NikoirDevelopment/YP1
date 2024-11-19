@@ -118,11 +118,17 @@
     <Compile Include="programm\App\Pages\CheckOrder\WindowEditOrder.xaml.cs">
       <DependentUpon>WindowEditOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="programm\App\Pages\CreateMaterial\PagesAddHomeTech.xaml.cs">
+      <DependentUpon>PagesAddHomeTech.xaml</DependentUpon>
+    </Compile>
     <Compile Include="programm\App\Pages\CreateMaterial\PagesCreateMaterial.xaml.cs">
       <DependentUpon>PagesCreateMaterial.xaml</DependentUpon>
     </Compile>
     <Compile Include="programm\App\Pages\CreateOrder\PagesCreateOrder.xaml.cs">
       <DependentUpon>PagesCreateOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\Statistics\PagesStatistics.xaml.cs">
+      <DependentUpon>PagesStatistics.xaml</DependentUpon>
     </Compile>
     <Compile Include="programm\App\Pages\Users\PagesUsers.xaml.cs">
       <DependentUpon>PagesUsers.xaml</DependentUpon>
@@ -175,11 +181,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="programm\App\Pages\CreateMaterial\PagesAddHomeTech.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="programm\App\Pages\CreateMaterial\PagesCreateMaterial.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="programm\App\Pages\CreateOrder\PagesCreateOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\Statistics\PagesStatistics.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -248,9 +262,7 @@
   <ItemGroup>
     <Resource Include="res\icons.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="programm\App\Pages\Statistics\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="res\image\Add.png" />
     <Resource Include="res\image\Authorization_dynamic.gif" />

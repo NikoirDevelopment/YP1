@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RepairEquipment.scripts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,21 @@ namespace RepairEquipment.programm.App.Pages.CreateMaterial
         public PagesCreateMaterial()
         {
             InitializeComponent();
+        }
+
+        private void BtnAddHomeTech_Click(object sender, RoutedEventArgs e)
+        {
+            ControlHelper.programm.frmObj.Navigate(new PagesAddHomeTech());
+        }
+
+        private void BtnAddFirmHomeModel_Click(object sender, RoutedEventArgs e)
+        {
+            ControlHelper.programm.frmObj.Navigate(new PagesAddHomeTech());
+        }
+
+        private void BtnAddColor_Click(object sender, RoutedEventArgs e)
+        {
+            ControlHelper.programm.frmObj.Navigate(new PagesAddHomeTech());
         }
     }
 }

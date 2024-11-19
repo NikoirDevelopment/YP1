@@ -39,6 +39,11 @@ namespace RepairEquipment.programm
             TxbPassword2.IsEnabled = false;
         }
 
+        /// <summary>
+        /// Разрешение ввода данных пользователей
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TxbUser_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (TxbUser.Text.Length > 0)
@@ -51,7 +56,6 @@ namespace RepairEquipment.programm
                 TxbName.Text = null;
             }
         }
-
         private void TxbName_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (TxbName.Text.Length > 0)
@@ -64,7 +68,6 @@ namespace RepairEquipment.programm
                 TxbSurname.Text = null;
             }
         }
-
         private void TxbSurname_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (TxbSurname.Text.Length > 0)
@@ -77,7 +80,6 @@ namespace RepairEquipment.programm
                 TxbMiddlename.Text = null;
             }
         }
-
         private void TxbMiddlename_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (TxbMiddlename.Text.Length > 0)
@@ -90,7 +92,6 @@ namespace RepairEquipment.programm
                 TxbPhone.Text = null;
             }
         }
-
         private void TxbPhone_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (TxbPhone.Text.Length > 0)
@@ -117,9 +118,6 @@ namespace RepairEquipment.programm
             ControlHelper.main.frmObj.GoBack();
         }
 
-        /// <summary>
-        /// Создание пользователя
-        /// </summary>
         private void CreateData()
         {
             if (TxbUser.Text != null && TxbName.Text != null && TxbSurname.Text != null && TxbMiddlename.Text != null
