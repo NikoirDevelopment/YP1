@@ -32,12 +32,12 @@ namespace RepairEquipment.data
         public Nullable<int> MasterId { get; set; }
         public Nullable<int> ClientId { get; set; }
     
-        public virtual Color Color { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Comment> Comment { get; set; }
         public virtual FirmModel FirmModel { get; set; }
         public virtual HomeTech HomeTech { get; set; }
         public virtual User User { get; set; }
+        public virtual TechColor TechColor { get; set; }
         public virtual Status Status { get; set; }
         public virtual User User1 { get; set; }
     }

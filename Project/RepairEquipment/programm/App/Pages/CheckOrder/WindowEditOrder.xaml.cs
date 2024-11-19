@@ -187,7 +187,7 @@ namespace RepairEquipment.programm.App.Pages.CheckOrder
             CmdModelTechFactory.SelectedValuePath = "Id";
             CmdModelTechFactory.DisplayMemberPath = "Model";
 
-            CmdTechColor.ItemsSource = OdbConnectHelper.databaseconnect.Color.ToList();
+            CmdTechColor.ItemsSource = OdbConnectHelper.databaseconnect.TechColor.ToList();
             CmdTechColor.SelectedValuePath = "Id";
             CmdTechColor.DisplayMemberPath = "Name";
 

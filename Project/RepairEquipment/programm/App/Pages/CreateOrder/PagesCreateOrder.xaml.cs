@@ -40,7 +40,7 @@ namespace RepairEquipment.programm.App.Pages.CreateOrder
             CmdTechFactory.SelectedValuePath = "Id";
             CmdTechFactory.DisplayMemberPath = "Model";
 
-            CmdTechColor.ItemsSource = OdbConnectHelper.databaseconnect.Color.ToList();
+            CmdTechColor.ItemsSource = OdbConnectHelper.databaseconnect.TechColor.ToList();
             CmdTechColor.SelectedValuePath = "Id";
             CmdTechColor.DisplayMemberPath = "Name";
         }

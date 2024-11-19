@@ -1,13 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="OdbYP1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="Color">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="Request" Relationship="Self.FK__Request__IdColor__4BAC3F29" FromRole="Color" ToRole="Request" />
-  </EntityType>
+  <EntityContainer Name="OdbYP1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Comment" EntityType="OdbYP1Model.Comment" />
+    <EntitySet Name="FirmModel" EntityType="OdbYP1Model.FirmModel" />
+    <EntitySet Name="HomeTech" EntityType="OdbYP1Model.HomeTech" />
+    <EntitySet Name="Request" EntityType="OdbYP1Model.Request" />
+    <EntitySet Name="Role" EntityType="OdbYP1Model.Role" />
+    <EntitySet Name="Status" EntityType="OdbYP1Model.Status" />
+    <EntitySet Name="sysdiagrams" EntityType="OdbYP1Model.sysdiagrams" />
+    <EntitySet Name="TechColor" EntityType="OdbYP1Model.TechColor" />
+    <EntitySet Name="User" EntityType="OdbYP1Model.User" />
+    <AssociationSet Name="FK__Comment__MasterI__5165187F" Association="OdbYP1Model.FK__Comment__MasterI__5165187F">
+      <End Role="User" EntitySet="User" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comment__Request__52593CB8" Association="OdbYP1Model.FK__Comment__Request__52593CB8">
+      <End Role="Request" EntitySet="Request" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__IdFirmM__4AB81AF0" Association="OdbYP1Model.FK__Request__IdFirmM__4AB81AF0">
+      <End Role="FirmModel" EntitySet="FirmModel" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__IdTech__49C3F6B7" Association="OdbYP1Model.FK__Request__IdTech__49C3F6B7">
+      <End Role="HomeTech" EntitySet="HomeTech" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__ClientI__4E88ABD4" Association="OdbYP1Model.FK__Request__ClientI__4E88ABD4">
+      <End Role="User" EntitySet="User" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__IdColor__4BAC3F29" Association="OdbYP1Model.FK__Request__IdColor__4BAC3F29">
+      <End Role="TechColor" EntitySet="TechColor" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__IdStatu__4CA06362" Association="OdbYP1Model.FK__Request__IdStatu__4CA06362">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__MasterI__4D94879B" Association="OdbYP1Model.FK__Request__MasterI__4D94879B">
+      <End Role="User" EntitySet="User" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__User__IdRole__3F466844" Association="OdbYP1Model.FK__User__IdRole__3F466844">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
   <EntityType Name="Comment">
     <Key>
       <PropertyRef Name="Id" />
@@ -16,25 +55,25 @@
     <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="MasterId" Type="Int32" />
     <Property Name="RequestId" Type="Int32" />
-    <NavigationProperty Name="User" Relationship="Self.FK__Comment__MasterI__5165187F" FromRole="Comment" ToRole="User" />
-    <NavigationProperty Name="Request" Relationship="Self.FK__Comment__Request__52593CB8" FromRole="Comment" ToRole="Request" />
+    <NavigationProperty Name="User" Relationship="OdbYP1Model.FK__Comment__MasterI__5165187F" FromRole="Comment" ToRole="User" />
+    <NavigationProperty Name="Request" Relationship="OdbYP1Model.FK__Comment__Request__52593CB8" FromRole="Comment" ToRole="Request" />
   </EntityType>
   <EntityType Name="FirmModel">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="Request" Relationship="Self.FK__Request__IdFirmM__4AB81AF0" FromRole="FirmModel" ToRole="Request" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Model" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Request" Relationship="OdbYP1Model.FK__Request__IdFirmM__4AB81AF0" FromRole="FirmModel" ToRole="Request" />
   </EntityType>
   <EntityType Name="HomeTech">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="Request" Relationship="Self.FK__Request__IdTech__49C3F6B7" FromRole="HomeTech" ToRole="Request" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Request" Relationship="OdbYP1Model.FK__Request__IdTech__49C3F6B7" FromRole="HomeTech" ToRole="Request" />
   </EntityType>
   <EntityType Name="Request">
     <Key>
@@ -51,62 +90,68 @@
     <Property Name="RepairParts" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="MasterId" Type="Int32" />
     <Property Name="ClientId" Type="Int32" />
-    <NavigationProperty Name="Color" Relationship="Self.FK__Request__IdColor__4BAC3F29" FromRole="Request" ToRole="Color" />
-    <NavigationProperty Name="Comment" Relationship="Self.FK__Comment__Request__52593CB8" FromRole="Request" ToRole="Comment" />
-    <NavigationProperty Name="FirmModel" Relationship="Self.FK__Request__IdFirmM__4AB81AF0" FromRole="Request" ToRole="FirmModel" />
-    <NavigationProperty Name="HomeTech" Relationship="Self.FK__Request__IdTech__49C3F6B7" FromRole="Request" ToRole="HomeTech" />
-    <NavigationProperty Name="User" Relationship="Self.FK__Request__ClientI__4E88ABD4" FromRole="Request" ToRole="User" />
-    <NavigationProperty Name="Status" Relationship="Self.FK__Request__IdStatu__4CA06362" FromRole="Request" ToRole="Status" />
-    <NavigationProperty Name="User1" Relationship="Self.FK__Request__MasterI__4D94879B" FromRole="Request" ToRole="User" />
+    <NavigationProperty Name="Comment" Relationship="OdbYP1Model.FK__Comment__Request__52593CB8" FromRole="Request" ToRole="Comment" />
+    <NavigationProperty Name="FirmModel" Relationship="OdbYP1Model.FK__Request__IdFirmM__4AB81AF0" FromRole="Request" ToRole="FirmModel" />
+    <NavigationProperty Name="HomeTech" Relationship="OdbYP1Model.FK__Request__IdTech__49C3F6B7" FromRole="Request" ToRole="HomeTech" />
+    <NavigationProperty Name="User" Relationship="OdbYP1Model.FK__Request__ClientI__4E88ABD4" FromRole="Request" ToRole="User" />
+    <NavigationProperty Name="TechColor" Relationship="OdbYP1Model.FK__Request__IdColor__4BAC3F29" FromRole="Request" ToRole="TechColor" />
+    <NavigationProperty Name="Status" Relationship="OdbYP1Model.FK__Request__IdStatu__4CA06362" FromRole="Request" ToRole="Status" />
+    <NavigationProperty Name="User1" Relationship="OdbYP1Model.FK__Request__MasterI__4D94879B" FromRole="Request" ToRole="User" />
   </EntityType>
   <EntityType Name="Role">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="User" Relationship="Self.FK__User__IdRole__3F466844" FromRole="Role" ToRole="User" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="User" Relationship="OdbYP1Model.FK__User__IdRole__3F466844" FromRole="Role" ToRole="User" />
   </EntityType>
   <EntityType Name="Status">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="Request" Relationship="Self.FK__Request__IdStatu__4CA06362" FromRole="Status" ToRole="Request" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Request" Relationship="OdbYP1Model.FK__Request__IdStatu__4CA06362" FromRole="Status" ToRole="Request" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TechColor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Request" Relationship="OdbYP1Model.FK__Request__IdColor__4BAC3F29" FromRole="TechColor" ToRole="Request" />
   </EntityType>
   <EntityType Name="User">
     <Key>
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Patronymic" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Phone" Type="Double" Nullable="false" />
-    <Property Name="Login" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="IdRole" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Comment" Relationship="Self.FK__Comment__MasterI__5165187F" FromRole="User" ToRole="Comment" />
-    <NavigationProperty Name="Request" Relationship="Self.FK__Request__ClientI__4E88ABD4" FromRole="User" ToRole="Request" />
-    <NavigationProperty Name="Request1" Relationship="Self.FK__Request__MasterI__4D94879B" FromRole="User" ToRole="Request" />
-    <NavigationProperty Name="Role" Relationship="Self.FK__User__IdRole__3F466844" FromRole="User" ToRole="Role" />
+    <NavigationProperty Name="Comment" Relationship="OdbYP1Model.FK__Comment__MasterI__5165187F" FromRole="User" ToRole="Comment" />
+    <NavigationProperty Name="Request" Relationship="OdbYP1Model.FK__Request__ClientI__4E88ABD4" FromRole="User" ToRole="Request" />
+    <NavigationProperty Name="Request1" Relationship="OdbYP1Model.FK__Request__MasterI__4D94879B" FromRole="User" ToRole="Request" />
+    <NavigationProperty Name="Role" Relationship="OdbYP1Model.FK__User__IdRole__3F466844" FromRole="User" ToRole="Role" />
   </EntityType>
-  <Association Name="FK__Request__IdColor__4BAC3F29">
-    <End Role="Color" Type="Self.Color" Multiplicity="0..1" />
-    <End Role="Request" Type="Self.Request" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Color">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Request">
-        <PropertyRef Name="IdColor" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="FK__Comment__MasterI__5165187F">
-    <End Role="User" Type="Self.User" Multiplicity="0..1" />
-    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <End Type="OdbYP1Model.User" Role="User" Multiplicity="0..1" />
+    <End Type="OdbYP1Model.Comment" Role="Comment" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
         <PropertyRef Name="id" />
@@ -117,8 +162,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Comment__Request__52593CB8">
-    <End Role="Request" Type="Self.Request" Multiplicity="0..1" />
-    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.Comment" Role="Comment" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Request">
         <PropertyRef Name="Id" />
@@ -129,8 +176,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Request__IdFirmM__4AB81AF0">
-    <End Role="FirmModel" Type="Self.FirmModel" Multiplicity="0..1" />
-    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <End Type="OdbYP1Model.FirmModel" Role="FirmModel" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="FirmModel">
         <PropertyRef Name="Id" />
@@ -141,8 +190,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Request__IdTech__49C3F6B7">
-    <End Role="HomeTech" Type="Self.HomeTech" Multiplicity="0..1" />
-    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <End Type="OdbYP1Model.HomeTech" Role="HomeTech" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="HomeTech">
         <PropertyRef Name="Id" />
@@ -153,8 +204,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Request__ClientI__4E88ABD4">
-    <End Role="User" Type="Self.User" Multiplicity="0..1" />
-    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <End Type="OdbYP1Model.User" Role="User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
         <PropertyRef Name="id" />
@@ -164,9 +217,25 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK__Request__IdColor__4BAC3F29">
+    <End Type="OdbYP1Model.TechColor" Role="TechColor" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TechColor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="IdColor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK__Request__IdStatu__4CA06362">
-    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
-    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <End Type="OdbYP1Model.Status" Role="Status" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Status">
         <PropertyRef Name="Id" />
@@ -177,8 +246,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Request__MasterI__4D94879B">
-    <End Role="User" Type="Self.User" Multiplicity="0..1" />
-    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <End Type="OdbYP1Model.User" Role="User" Multiplicity="0..1" />
+    <End Type="OdbYP1Model.Request" Role="Request" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="User">
         <PropertyRef Name="id" />
@@ -189,8 +258,10 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__User__IdRole__3F466844">
-    <End Role="Role" Type="Self.Role" Multiplicity="1" />
-    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <End Type="OdbYP1Model.Role" Role="Role" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="OdbYP1Model.User" Role="User" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Role">
         <PropertyRef Name="Id" />
@@ -200,50 +271,4 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="OdbYP1Entities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Color" EntityType="Self.Color" />
-    <EntitySet Name="Comment" EntityType="Self.Comment" />
-    <EntitySet Name="FirmModel" EntityType="Self.FirmModel" />
-    <EntitySet Name="HomeTech" EntityType="Self.HomeTech" />
-    <EntitySet Name="Request" EntityType="Self.Request" />
-    <EntitySet Name="Role" EntityType="Self.Role" />
-    <EntitySet Name="Status" EntityType="Self.Status" />
-    <EntitySet Name="User" EntityType="Self.User" />
-    <AssociationSet Name="FK__Request__IdColor__4BAC3F29" Association="Self.FK__Request__IdColor__4BAC3F29">
-      <End Role="Color" EntitySet="Color" />
-      <End Role="Request" EntitySet="Request" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Comment__MasterI__5165187F" Association="Self.FK__Comment__MasterI__5165187F">
-      <End Role="User" EntitySet="User" />
-      <End Role="Comment" EntitySet="Comment" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Comment__Request__52593CB8" Association="Self.FK__Comment__Request__52593CB8">
-      <End Role="Request" EntitySet="Request" />
-      <End Role="Comment" EntitySet="Comment" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Request__IdFirmM__4AB81AF0" Association="Self.FK__Request__IdFirmM__4AB81AF0">
-      <End Role="FirmModel" EntitySet="FirmModel" />
-      <End Role="Request" EntitySet="Request" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Request__IdTech__49C3F6B7" Association="Self.FK__Request__IdTech__49C3F6B7">
-      <End Role="HomeTech" EntitySet="HomeTech" />
-      <End Role="Request" EntitySet="Request" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Request__ClientI__4E88ABD4" Association="Self.FK__Request__ClientI__4E88ABD4">
-      <End Role="User" EntitySet="User" />
-      <End Role="Request" EntitySet="Request" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Request__IdStatu__4CA06362" Association="Self.FK__Request__IdStatu__4CA06362">
-      <End Role="Status" EntitySet="Status" />
-      <End Role="Request" EntitySet="Request" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Request__MasterI__4D94879B" Association="Self.FK__Request__MasterI__4D94879B">
-      <End Role="User" EntitySet="User" />
-      <End Role="Request" EntitySet="Request" />
-    </AssociationSet>
-    <AssociationSet Name="FK__User__IdRole__3F466844" Association="Self.FK__User__IdRole__3F466844">
-      <End Role="Role" EntitySet="Role" />
-      <End Role="User" EntitySet="User" />
-    </AssociationSet>
-  </EntityContainer>
 </Schema>

@@ -67,9 +67,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="data\Color.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
     <Compile Include="data\Comment.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -103,6 +100,12 @@
     <Compile Include="data\Status.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="data\sysdiagrams.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="data\TechColor.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="data\User.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -117,6 +120,12 @@
     </Compile>
     <Compile Include="programm\App\Pages\CheckOrder\WindowEditOrder.xaml.cs">
       <DependentUpon>WindowEditOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\CreateMaterial\PagesAddColor.xaml.cs">
+      <DependentUpon>PagesAddColor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="programm\App\Pages\CreateMaterial\PagesAddFirmModel.xaml.cs">
+      <DependentUpon>PagesAddFirmModel.xaml</DependentUpon>
     </Compile>
     <Compile Include="programm\App\Pages\CreateMaterial\PagesAddHomeTech.xaml.cs">
       <DependentUpon>PagesAddHomeTech.xaml</DependentUpon>
@@ -178,6 +187,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="programm\App\Pages\CheckOrder\WindowEditOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CreateMaterial\PagesAddColor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="programm\App\Pages\CreateMaterial\PagesAddFirmModel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

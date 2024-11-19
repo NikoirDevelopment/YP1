@@ -12,10 +12,10 @@ namespace RepairEquipment.data
     using System;
     using System.Collections.Generic;
     
-    public partial class Color
+    public partial class TechColor
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Color()
+        public TechColor()
         {
             this.Request = new HashSet<Request>();
         }

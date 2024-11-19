@@ -14,21 +14,40 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Xml.Linq;
 
 namespace RepairEquipment.programm.App.Pages.CreateMaterial
 {
     /// <summary>
-    /// Логика взаимодействия для PagesAddHomeTech.xaml
+    /// Логика взаимодействия для PagesAddFirmModel.xaml
     /// </summary>
-    public partial class PagesAddHomeTech : Page
+    public partial class PagesAddFirmModel : Page
     {
-        public PagesAddHomeTech()
+        public PagesAddFirmModel()
         {
             InitializeComponent();
+            LoadData();
         }
 
-        private void BtnCreate_Click(object sender, RoutedEventArgs e)
+        private void LoadData()
+        {
+            CmbFirmTech.ItemsSource = OdbConnectHelper.databaseconnect.HomeTech.ToList();
+            CmbFirmTech.SelectedValuePath = "Id";
+            CmbFirmTech.DisplayMemberPath = "Name";
+        }
+
+        private void TxbName_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            if (TxbName.Text != null)
+            {
+                CmbFirmTech.IsEnabled = true;
+            }
+            else
+            {
+                CmbFirmTech.IsEnabled = false;
+            }
+        }
+
+        private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
             string name = TxbName.Text;
 
@@ -36,40 +55,39 @@ namespace RepairEquipment.programm.App.Pages.CreateMaterial
             {
                 if (name != null)
                 {
-                    var checkHomeTech = OdbConnectHelper.databaseconnect.HomeTech.FirstOrDefault(
+                    var checkFirmModel = OdbConnectHelper.databaseconnect.FirmModel.FirstOrDefault(
                         x => x.Name == name);
 
-                    if (checkHomeTech == null)
+                    if (checkFirmModel == null)
                     {
-                        HomeTech homeTech = new HomeTech
+                        FirmModel firmModel = new FirmModel
                         {
-                            Name = name
+                            Name = CmbFirmTech.DisplayMemberPath,
+                            Model = name,
                         };
 
                         MessageBoxResult result = MessageBox.Show(
                             "Вы уверены, что хотите добавить: " + name + "?",
-                            "Уведомление | Добавление элементов в систему | Добавление бытовой техники",
+                            "Уведомление | Добавление элементов в систему | Добавление модели",
                             MessageBoxButton.YesNo,
                             MessageBoxImage.Warning);
 
                         if (result == MessageBoxResult.Yes)
                         {
-                            OdbConnectHelper.databaseconnect.HomeTech.Add(homeTech);
+                            OdbConnectHelper.databaseconnect.FirmModel.Add(firmModel);
                             OdbConnectHelper.databaseconnect.SaveChanges();
 
                             MessageBox.Show(
                                 name + " добавлен",
-                                "Уведомление | Добавление элементов в систему | Добавление бытовой техники",
+                                "Уведомление | Добавление элементов в систему | Добавление модели",
                                 MessageBoxButton.OK,
                                 MessageBoxImage.Information);
-
-                            ControlHelper.programm.frmObj.Navigate(new PagesCreateMaterial());
                         }
                     }
                     else
                     {
                         MessageBox.Show(name + " уже занято!",
-                            "Системное уведомление | Добавление элементов в систему | Добавление бытовой техники",
+                            "Системное уведомление | Добавление элементов в систему | Добавление модели",
                             MessageBoxButton.OK,
                             MessageBoxImage.Warning);
                     }
@@ -77,7 +95,7 @@ namespace RepairEquipment.programm.App.Pages.CreateMaterial
                 else
                 {
                     MessageBox.Show("Проверьте, что поле заполнено верно и не пустое!",
-                        "Системное уведомление | Добавление элементов в систему | Добавление бытовой техники",
+                        "Системное уведомление | Добавление элементов в систему | Добавление модели",
                         MessageBoxButton.OK,
                         MessageBoxImage.Warning);
                 }
@@ -85,7 +103,7 @@ namespace RepairEquipment.programm.App.Pages.CreateMaterial
             catch (Exception ex)
             {
                 MessageBox.Show("Критическая ошибка базы данных! " + ex,
-                    "Критическая ошибка | Добавление элементов в систему | Добавление бытовой техники",
+                    "Критическая ошибка | Добавление элементов в систему | Добавление модели",
                     MessageBoxButton.OK,
                     MessageBoxImage.Error);
             }

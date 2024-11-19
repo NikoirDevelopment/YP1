@@ -32,24 +32,24 @@
             VerticalAlignment="Center"
             Orientation="Vertical">
             <Button
-                x:Name="BtnAddHomeTech"
-                Style="{StaticResource BtnMain}"
-                Content="Добавить бытовую технику"
-                Click="BtnAddHomeTech_Click">
+                    x:Name="BtnAddHomeTech"
+                    Style="{StaticResource BtnMain}"
+                    Content="Добавить бытовую технику"
+                    Click="BtnAddHomeTech_Click">
             </Button>
-
-            <Button
-                x:Name="BtnAddColor"
-                Style="{StaticResource BtnMain}"
-                Content="Добавить цвет бытовой технике"
-                Click="BtnAddColor_Click">
-            </Button>
-
-            <Button
-                x:Name="BtnAddFirmHomeModel"
-                Style="{StaticResource BtnMain}"
-                Content="Добавить модель техники"
-                Click="BtnAddFirmHomeModel_Click">
+                
+                <Button
+                    x:Name="BtnAddColor"
+                    Style="{StaticResource BtnMain}"
+                    Content="Добавить цвет технике"
+                    Click="BtnAddColor_Click">
+                </Button>
+                
+                <Button
+                    x:Name="BtnAddFirmHomeModel"
+                    Style="{StaticResource BtnMain}"
+                    Content="Добавить модель техники"
+                    Click="BtnAddFirmHomeModel_Click">
             </Button>
         </StackPanel>
     </Grid>

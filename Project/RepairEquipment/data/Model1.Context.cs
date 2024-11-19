@@ -25,13 +25,14 @@ namespace RepairEquipment.data
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Color> Color { get; set; }
         public virtual DbSet<Comment> Comment { get; set; }
         public virtual DbSet<FirmModel> FirmModel { get; set; }
         public virtual DbSet<HomeTech> HomeTech { get; set; }
         public virtual DbSet<Request> Request { get; set; }
         public virtual DbSet<Role> Role { get; set; }
         public virtual DbSet<Status> Status { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<TechColor> TechColor { get; set; }
         public virtual DbSet<User> User { get; set; }
     }
 }

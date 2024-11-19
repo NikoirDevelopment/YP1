@@ -65,7 +65,7 @@ namespace RepairEquipment.programm.App.Pages.CheckOrder
             CmdModelTechFactory.SelectedValuePath = "Id";
             CmdModelTechFactory.DisplayMemberPath = "Model";
 
-            CmdTechColor.ItemsSource = OdbConnectHelper.databaseconnect.Color.ToList();
+            CmdTechColor.ItemsSource = OdbConnectHelper.databaseconnect.TechColor.ToList();
             CmdTechColor.SelectedValuePath = "Id";
             CmdTechColor.DisplayMemberPath = "Name";
 
@@ -114,7 +114,7 @@ namespace RepairEquipment.programm.App.Pages.CheckOrder
             {
                 OdbConnectHelper.databaseconnect.Request.Remove(_request);
                 OdbConnectHelper.databaseconnect.SaveChanges();
-                MessageBox.Show("Заказ вид техники:" + _request.HomeTech + " модель фирмы: " + _request.FirmModel + " цвет: " + _request.Color + "."
+                MessageBox.Show("Заказ вид техники:" + _request.HomeTech + " модель фирмы: " + _request.FirmModel + " цвет: " + _request.TechColor + "."
                     + " От клиента: " + _user.Surname + " " + _user.Name + " " + _user.Patronymic + ".",
                 "Системное уведомление | Удаление пользователя",
                 MessageBoxButton.OK,

@@ -31,14 +31,14 @@ namespace RepairEquipment.programm.App.Pages.CreateMaterial
             ControlHelper.programm.frmObj.Navigate(new PagesAddHomeTech());
         }
 
-        private void BtnAddFirmHomeModel_Click(object sender, RoutedEventArgs e)
-        {
-            ControlHelper.programm.frmObj.Navigate(new PagesAddHomeTech());
-        }
-
         private void BtnAddColor_Click(object sender, RoutedEventArgs e)
         {
-            ControlHelper.programm.frmObj.Navigate(new PagesAddHomeTech());
+            ControlHelper.programm.frmObj.Navigate(new PagesAddColor());
+        }
+
+        private void BtnAddFirmHomeModel_Click(object sender, RoutedEventArgs e)
+        {
+            ControlHelper.programm.frmObj.Navigate(new PagesAddFirmModel());
         }
     }
 }
