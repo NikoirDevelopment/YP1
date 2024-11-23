@@ -11,10 +11,10 @@
  - 👷 Master: Viewing applications that were issued to a specific master with the help of an operator, as well as adding the identified cause of the problem;
  - 👨‍💻 Manager: Is the most important user. Can view user profiles, as well as change their password. View all the requests that exist in the system and perform the operations that the operator has. View the average statistics of completed orders.
 
-## Operating system:
+## Operating system
  - Windows 10/11
 
-## Hardware component:
+## Hardware component
  Recommended computer hardware resources:
   - Processor: 6 core 3.20 GHz
   - RAM: 8 GB
@@ -29,7 +29,7 @@ Minimum computer hardware resources:
   - VRAM: Directx 11
   - Ethernet: 80 Mbit/s
 
-## Software component:
+## Software component
  - Directx 11
  - Microsoft SQL Server 2022
  - SQL Server Management Studio 20
@@ -38,7 +38,7 @@ Minimum computer hardware resources:
 
 # YP1-2024 (Описание проекта) | Русский
 
-## Описание:
+## Описание
  Создание программного продукта для мастерской бытовой техники (образовательная практика)
  
 ## Функциональная спецификация
@@ -49,10 +49,10 @@ Minimum computer hardware resources:
  - 👷 Мастер: Просмотр заявок, которые были отправлены конкретному мастеру с помощью оператора, а также добавление выявленной причины проблемы;
  - 👨‍💻 Менеджер: Является наиболее важным пользователем. Может просматривать профили пользователей, а также изменять их пароль. Просматривать все существующие в системе запросы и выполнять операции, которые есть у оператора. Просматривать среднюю статистику выполненных заказов.
 
-## Операционная система:
+## Операционная система
  - Windows 10/11
 
-## Аппаратный компонент:
+## Аппаратный компонент
  Рекомендуемые аппаратные ресурсы компьютера:
   - Процессор: 6 ядер 3,20 ГГц
   - Оперативная память: 8 ГБ
@@ -67,7 +67,7 @@ Minimum computer hardware resources:
   - VRAM: Directx 11
   - Ethernet: 80 Мбит/с
 
-## Программные компонент:
+## Программные компонент
  - Directx 11
  - Microsoft SQL Server 2022
  - SQL Server Management Studio 20
