@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\checkorder\\pagescheckorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\checkorder\\pagescheckorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\pagesreg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\pagesreg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\pagesauth.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\pagesauth.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\apprepairequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\apprepairequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\users\\windowsdetailuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\users\\windowsdetailuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\users\\windowsdeleteuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\users\\windowsdeleteuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\users\\pagesusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\users\\pagesusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\statistics\\pagesstatistics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\statistics\\pagesstatistics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\statistics\\pagesstatistics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\statistics\\pagesstatistics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\createorder\\pagescreateorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\createorder\\pagescreateorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\creatematerial\\pagescreatematerial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\creatematerial\\pagescreatematerial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\creatematerial\\pagesaddhometech.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\creatematerial\\pagesaddhometech.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\creatematerial\\pagesaddfirmmodel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\creatematerial\\pagesaddfirmmodel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\creatematerial\\pagesaddcolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\creatematerial\\pagesaddcolor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\checkorder\\windoweditorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\checkorder\\windoweditorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\programm\\app\\pages\\checkorder\\windowdeleteorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:programm\\app\\pages\\checkorder\\windowdeleteorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|c:\\users\\hlebu\\yandexdisk\\nikoirdevelopment\\yp1-2024\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\project\\repairequipment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A91FE0EB-A94B-44C2-BDCD-FD3983D05BCF}|RepairEquipment.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -14,11 +78,204 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagesReg.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\PagesReg.xaml",
+              "RelativeDocumentMoniker": "programm\\PagesReg.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\PagesReg.xaml",
+              "RelativeToolTip": "programm\\PagesReg.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:16.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagesAuth.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\PagesAuth.xaml",
+              "RelativeDocumentMoniker": "programm\\PagesAuth.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\PagesAuth.xaml",
+              "RelativeToolTip": "programm\\PagesAuth.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:14.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppRepairEquipment.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\AppRepairEquipment.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\AppRepairEquipment.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\AppRepairEquipment.xaml",
+              "RelativeToolTip": "programm\\App\\AppRepairEquipment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:11.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowsDetailUser.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Users\\WindowsDetailUser.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\Users\\WindowsDetailUser.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Users\\WindowsDetailUser.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\Users\\WindowsDetailUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowsDeleteUser.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Users\\WindowsDeleteUser.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\Users\\WindowsDeleteUser.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Users\\WindowsDeleteUser.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\Users\\WindowsDeleteUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:08.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagesUsers.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Users\\PagesUsers.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\Users\\PagesUsers.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Users\\PagesUsers.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\Users\\PagesUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:07.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PagesStatistics.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Statistics\\PagesStatistics.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\Statistics\\PagesStatistics.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Statistics\\PagesStatistics.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\Statistics\\PagesStatistics.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:06:03.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagesStatistics.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Statistics\\PagesStatistics.xaml.cs",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\Statistics\\PagesStatistics.xaml.cs",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\Statistics\\PagesStatistics.xaml.cs",
+              "RelativeToolTip": "programm\\App\\Pages\\Statistics\\PagesStatistics.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:06:00.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PagesCreateOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateOrder\\PagesCreateOrder.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CreateOrder\\PagesCreateOrder.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateOrder\\PagesCreateOrder.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CreateOrder\\PagesCreateOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:59.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagesCreateMaterial.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesCreateMaterial.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CreateMaterial\\PagesCreateMaterial.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesCreateMaterial.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CreateMaterial\\PagesCreateMaterial.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:56.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagesAddHomeTech.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesAddHomeTech.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CreateMaterial\\PagesAddHomeTech.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesAddHomeTech.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CreateMaterial\\PagesAddHomeTech.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:54.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PagesAddFirmModel.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesAddFirmModel.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CreateMaterial\\PagesAddFirmModel.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesAddFirmModel.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CreateMaterial\\PagesAddFirmModel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:50.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PagesAddColor.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesAddColor.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CreateMaterial\\PagesAddColor.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CreateMaterial\\PagesAddColor.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CreateMaterial\\PagesAddColor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:49.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WindowEditOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CheckOrder\\WindowEditOrder.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CheckOrder\\WindowEditOrder.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CheckOrder\\WindowEditOrder.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CheckOrder\\WindowEditOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:47.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WindowDeleteOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CheckOrder\\WindowDeleteOrder.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CheckOrder\\WindowDeleteOrder.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CheckOrder\\WindowDeleteOrder.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CheckOrder\\WindowDeleteOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:45.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PagesCheckOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CheckOrder\\PagesCheckOrder.xaml",
+              "RelativeDocumentMoniker": "programm\\App\\Pages\\CheckOrder\\PagesCheckOrder.xaml",
+              "ToolTip": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\programm\\App\\Pages\\CheckOrder\\PagesCheckOrder.xaml",
+              "RelativeToolTip": "programm\\App\\Pages\\CheckOrder\\PagesCheckOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T08:05:41.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\hlebu\\YandexDisk\\NikoirDevelopment\\YP1-2024\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Project\\RepairEquipment\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
